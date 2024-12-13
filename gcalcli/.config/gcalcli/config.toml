@@ -4,7 +4,7 @@
 
 [calendars]
 # default-calendars = ["Main", "Time-Block", "All Courses - University of Waterloo", "Formula 1", "Ren's Calendar"]
-# ignore-calendars = ["Ren's Calendar"]
+ignore-calendars = ["Ren's Calendar"]
 # Main = 28
 
 [output]

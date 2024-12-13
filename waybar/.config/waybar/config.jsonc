@@ -47,7 +47,7 @@
 		"locale": "C",
 		"format": "{:%T<small> %Z</small>}",
 		"format-alt": "<small>{:%F | %T %Z}</small>",
-		"tooltip-format": "<tt>{calendar}</tt>"
+		"tooltip-format": "<tt>{calendar}</tt>"//how to specify colors for events in gcalcli
 	},
 	"clock#UTC": {
 		"format": "{:%H:%M<small> %Z</small>}",

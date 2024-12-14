@@ -59,7 +59,12 @@ vim.api.nvim_create_autocmd("FileType", {
 vim.cmd("set encoding=utf-8")
 vim.cmd("filetype plugin on")
 vim.g.vimtex_quickfix_mode = 0
-vim.g.vimtex_log_verbose = 0
+vim.g.vimtex_log_verbose = 1
+vim.keymap.set("n", "<leader>lc", ":VimtexCompile<CR>", { noremap = true, silent = true })
+-- vim.keymap.set('n', '<leader>lv', ':VimtexView<CR>', { noremap = true, silent = true })
+-- vim.keymap.set('n', '<leader>lo', ':VimtexCompileOutput<CR>', { noremap = true, silent = true })
+-- vim.keymap.set('n', '<leader>ls', ':VimtexStop<CR>', { noremap = true, silent = true })
+--
 
 --Python formatting with global black--
 vim.keymap.set("n", "<leader>bf", ":silent !black <CR>")

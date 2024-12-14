@@ -20,6 +20,13 @@ return {
 			["xelatex"] = "-xelatex",
 			["lualatex"] = "-lualatex",
 		}
+		-- vim.api.nvim_create_autocmd("FileType", {
+		-- 	pattern = "tex",
+		-- 	callback = function()
+		-- 		vim.b.vimtex_main = "./main.tex"
+		-- 	end,
+		-- })
+		vim.g.vimtex_main_file = "./main.tex"
 
 		-- Automatically detect the main .tex file (optional)
 		vim.g.vimtex_main_file = "main.tex"

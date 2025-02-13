@@ -72,3 +72,8 @@ vim.keymap.set("n", "<leader>bf", ":silent !black <CR>")
 -- setting transparency
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+
+vim.diagnostic.config({
+	virtual_text = true,
+	virtual_lines = { only_current_line = false }, -- Show virtual lines for all diagnostics
+})

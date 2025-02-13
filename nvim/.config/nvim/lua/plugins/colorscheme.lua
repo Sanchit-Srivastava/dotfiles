@@ -32,6 +32,15 @@ return {
 			vim.cmd.colorscheme("catppuccin")
 		end,
 	},
+
+	{
+		"ellisonleao/gruvbox.nvim",
+		name = "gruvbox",
+		priority = 1000,
+		config = true,
+		opts = ...,
+	},
+
 	{
 		"folke/tokyonight.nvim",
 		priority = 1000,
